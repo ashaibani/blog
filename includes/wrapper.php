@@ -14,6 +14,6 @@ define( 'DB_NAME', 'blog' );
 define( 'DISPLAY_DEBUG', true );
 
 $db = new DB();
-$postHandler = new PostHandler($db);
-$userHandler = new UserHandler($db);
+$postHandler = new PostHandler();
+$userHandler = new UserHandler();
 ?>

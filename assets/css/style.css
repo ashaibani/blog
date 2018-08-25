@@ -1,53 +1,74 @@
-/* github.com/plasticneko */
-/* bulma css framework by jeremy thomas (github.com/jgthms | bulma.io) */
+#wrapper {
+	margin:auto;
+	width:960px;
+}
 
-/* basic formatting changes */
+#main {
+	float:left;
+	width:640px;
+	margin-right:20px;
+}
+
+#sidebar {
+	float:right;
+	width:300px;
+}
+
+#login {
+	border: 1px solid #AEAEAE;
+	margin: 100px auto 0;
+	padding: 0;
+	width: 300px;
+}
+
+#adminmenu {
+	padding-left: 0;
+}
+
+#adminmenu li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.error {
+	padding: 0.75em;
+	margin: 0.75em;
+	border: 1px solid #990000;
+	max-width: 400px;
+	color: #990000;
+	background-color: #FDF0EB;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+p,li {
+	color: #555555;
+	font-size: 16px;
+	line-height: 1.5em;
+}
 
 a {
-    color: grey;
+	color: #EF1F2F;
+	text-decoration: none;
 }
 
-.main-content {
-    padding-top: 2.5rem;
+form input {
+	border: 1px solid #999999;
+	border-bottom-color: #cccccc;
+	border-right-color: #cccccc;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	margin: 2px;
 }
 
-.content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
-    font-family: 'Crimson Text', serif;
-}
-
-.button:focus {
-    border-color: #4a4a4a;
-    box-shadow: 0 0 0 #4a4a4a;
-}
-
-.menu-label:not(:first-child) {
-    margin-top: 0;
-}
-
-.content p {
-    font-size: 1.1em;
-}
-
-.header-content small {
-    font-size: 1.0em;
-}
-
-.header-content {
-    padding-bottom: 20px;
-}
-
-.header-content img {
-    padding-bottom: 20px;
-}
-
-.post-wrapper {
-    padding-bottom: 50px;
-}
-
-.has-padding {
-    padding-bottom: 51px;
-}
-
-.footer {
-    margin-top: 2rem;
-}
+table {width:98%; text-align:left; border:1px solid #DDDDDD; font-size:12px; color:#000;background:#fff; margin-bottom:10px;}
+table th {background-color:#E5E5E5; border:1px solid #BBBBBB; padding:3px 6px; font-weight:normal; color:#000;}
+table tr td {border:1px solid #DDDDDD; padding:5px 6px;}
+table tr.alt td {background-color:#E2E2E2;}
+table tr:hover {background-color:#F0F0F0; color:#000;}

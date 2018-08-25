@@ -11,12 +11,17 @@
 			<h1><a href="./index.php">[@title]</a></h1>
 			<hr />
 			<div id="main">
-				[@posts]
+				<div id="[@postID]">
+					<h1><a href="./post.php?id=[@postID]">[@postTitle]</a></h1>
+					<small><i>Posted on [@date] by [@author]</i></small>
+					<p>[@postContent]</p>
+					<p>Tags: [@postTags]</p>
+				</div>
+
 			</div>
 			<div id="sidebar">
 				<h1>Tags</h1>
 				<hr />
-
 				<ul>
 					[@tags]
 				</ul>

@@ -6,7 +6,7 @@ class Post {
 	public $author;
 	public $date_posted;
 	public $tags = array();
-		
+	
 	public function __construct($id, $title, $content, $author, $date_posted, $tags) {
         $this->id = $id;
 		$this->title = $title;
